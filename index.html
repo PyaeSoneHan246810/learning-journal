@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
     <header id="header">
         <div class="header-content container">
-            <div class="logo">
-                <img src="images/logo.svg"/>
+            <a href="index.html" class="logo">
+                <img src="images/logo/logo_icon.svg" alt="logo icon"/>
                 <p>My learning journal</p>
-            </div>
+            </a>
             <nav class="main-navigation">
                 <ul class="menu-list">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About me</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about_me.html">About me</a></li>
                 </ul>
             </nav>
         </div>
@@ -33,31 +33,36 @@
             <div class="container">
                  <div class="blogs-content">
                     <article class="blog blog-1">
-                        <img class="image" src="images/hero-background.jpg"/>
+                        <img class="image" src="images/blogs/blog-1.jpg" alt=""/>
                         <div>
                             <p class="date">JULY 23, 2022</p>
                             <h2 class="title">Blog one</h2>
-                            <p class="desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                            <p class="desc">This is the description for Blog one.</p>
                         </div>
+                        <a href="" aria-label="Read more about Blog one"></a>
                     </article>
                     <article class="blog blog-2">
-                        <img class="image" src="images/hero-background.jpg"/>
+                        <img class="image" src="images/blogs/blog-2.jpg" alt=""/>
                         <div>
-                            <p class="date">JULY 23, 2022</p>
+                            <p class="date">JULY 22, 2022</p>
                             <h2 class="title">Blog two</h2>
-                            <p class="desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                            <p class="desc">This is the description for Blog two.</p>
                         </div>
+                        <a href="" aria-label="Read more about Blog two"></a>
                     </article>
                     <article class="blog blog-3">
-                        <img class="image" src="images/hero-background.jpg"/>
+                        <img class="image" src="images/blogs/blog-3.jpg" alt=""/>
                         <div>
-                            <p class="date">JULY 23, 2022</p>
+                            <p class="date">JULY 21, 2022</p>
                             <h2 class="title">Blog three</h2>
-                            <p class="desc">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+                            <p class="desc">This is the description for Blog three.</p>
                         </div>
+                        <a href="" aria-label="Read more about Blog three"></a>
                     </article>
                 </div>
-                <p class="view-more"><a href="">View more</a></p>
+                <div class="view-more">
+                    <button class="view-more-btn">View more</button>
+                </div>
             </div>
         </section>
     </main>

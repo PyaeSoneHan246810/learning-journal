@@ -39,6 +39,7 @@ h1, h2, p, a {
     flex-direction: row;
     gap: 0.25em;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo img {
@@ -69,11 +70,11 @@ h1, h2, p, a {
     color: #090909;
 }
 
-.logo:hover {
+.logo:hover, .logo:focus {
     cursor: pointer;
 }
 
-.menu-list a:hover {
+.menu-list a:hover, .menu-list a:focus {
     cursor: pointer;
 }
 
@@ -137,6 +138,12 @@ h1, h2, p, a {
     display: flex;
     flex-direction: column;
     gap: 0.875em;
+    position: relative;
+}
+
+.blog a {
+    position: absolute;
+    inset: 0;
 }
 
 .blog .image {
@@ -167,12 +174,20 @@ h1, h2, p, a {
     padding: 1.5em;
 }
 
-.view-more a {
+.view-more-btn {
     color: #000000;
     font-size: 1rem;
+    text-decoration: underline;
+    text-align: center;
+    background: none;
+    border: none;
 }
 
-.blog:hover {
+.blog:hover, .blog:focus {
+    cursor: pointer;
+}
+
+.view-more-btn:hover, .view-more-btn:focus {
     cursor: pointer;
 }
 
